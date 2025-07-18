@@ -52,69 +52,111 @@
 <body style="background-color: #f6f6f6;">
 
   <div class="container my-5">
-  <div class="block-heading text-center">
-    <h2>Shopping Summary</h2>
-    <p>The customer is very important, the customer will be followed by the customer. Now, as an urn, I have no right to be in possession of property.</p>
-  </div>
-
-  <div class="row">
-    <!-- Left Column -->
-    <div class="col-lg-8">
-      <!-- Product 1 -->
-      <div class="product">
-        <div class="row align-items-center">
-          <div class="col-3">
-            <img src="https://via.placeholder.com/100" class="img-fluid" alt="mobile">
-          </div>
-          <div class="col-5">
-            <p class="text-primary mb-1">I am very sorry</p>
-            <p class="mb-0">Display: 5 inches</p>
-            <p class="mb-0">RAM: 4GB</p>
-            <p class="mb-0">Memory: 32GB</p>
-          </div>
-          <div class="col-2">
-            <label>Quantity:</label>
-            <input type="number" value="1" class="form-control">
-          </div>
-          <div class="col-2">
-            <p class="fw-bold mb-0">$120</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Repeat for Product 2 and 3 -->
-      <!-- ... (copy same structure as above for each product) -->
-
-      <!-- Add a required <a> tag -->
-      <a href="#" class="text-decoration-none text-primary mt-3 d-block">Continue Shopping</a>
+    <!-- Header -->
+    <div class="block-heading text-center">
+      <h2>Shopping Summary</h2>
+      <p>The customer is very important, the customer will be followed by the customer. Now, as an urn, I have no right to be in possession of property.</p>
     </div>
 
-    <!-- Right Column -->
-    <div class="col-lg-4">
-      <div class="summary">
-        <h5>Summary</h5>
-        <div class="d-flex justify-content-between">
-          <p>Subtotal</p>
-          <p>$360</p>
+    <!-- Main Row -->
+    <div class="row">
+      <!-- Left Column: Products -->
+      <div class="col-lg-8">
+        <!-- Product 1 -->
+        <div class="product">
+          <div class="row align-items-center">
+            <div class="col-3">
+              <img src="https://via.placeholder.com/100" class="img-fluid" alt="mobile">
+            </div>
+            <div class="col-5">
+              <p class="text-primary mb-1">I am very sorry</p>
+              <p class="mb-0">Display: 5 inches</p>
+              <p class="mb-0">RAM: 4GB</p>
+              <p class="mb-0">Memory: 32GB</p>
+            </div>
+            <div class="col-2">
+              <label>Quantity:</label>
+              <input type="number" value="1" class="form-control">
+            </div>
+            <div class="col-2">
+              <p class="fw-bold mb-0">$120</p>
+            </div>
+          </div>
         </div>
-        <div class="d-flex justify-content-between">
-          <p>Discount</p>
-          <p>$0</p>
+
+        <!-- Product 2 -->
+        <div class="product">
+          <div class="row align-items-center">
+            <div class="col-3">
+              <img src="https://via.placeholder.com/100" class="img-fluid" alt="mobile">
+            </div>
+            <div class="col-5">
+              <p class="text-primary mb-1">I am very sorry</p>
+              <p class="mb-0">Display: 5 inches</p>
+              <p class="mb-0">RAM: 4GB</p>
+              <p class="mb-0">Memory: 32GB</p>
+            </div>
+            <div class="col-2">
+              <label>Quantity:</label>
+              <input type="number" value="1" class="form-control">
+            </div>
+            <div class="col-2">
+              <p class="fw-bold mb-0">$120</p>
+            </div>
+          </div>
         </div>
-        <div class="d-flex justify-content-between">
-          <p>Shipping</p>
-          <p>$0</p>
+
+        <!-- Product 3 -->
+        <div class="product">
+          <div class="row align-items-center">
+            <div class="col-3">
+              <img src="https://via.placeholder.com/100" class="img-fluid" alt="mobile">
+            </div>
+            <div class="col-5">
+              <p class="text-primary mb-1">I am very sorry</p>
+              <p class="mb-0">Display: 5 inches</p>
+              <p class="mb-0">RAM: 4GB</p>
+              <p class="mb-0">Memory: 32GB</p>
+            </div>
+            <div class="col-2">
+              <label>Quantity:</label>
+              <input type="number" value="1" class="form-control">
+            </div>
+            <div class="col-2">
+              <p class="fw-bold mb-0">$120</p>
+            </div>
+          </div>
         </div>
-        <div class="d-flex justify-content-between fw-bold">
-          <p>Total</p>
-          <p>$360</p>
+
+        <!-- Required anchor tag for Cypress -->
+        <a href="#" class="text-decoration-none text-primary mt-3 d-block">Continue Shopping</a>
+      </div>
+
+      <!-- Right Column: Summary -->
+      <div class="col-lg-4">
+        <div class="summary">
+          <h5>Summary</h5>
+          <div class="d-flex justify-content-between">
+            <p>Subtotal</p>
+            <p>$360</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p>Discount</p>
+            <p>$0</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p>Shipping</p>
+            <p>$0</p>
+          </div>
+          <div class="d-flex justify-content-between fw-bold">
+            <p>Total</p>
+            <p>$360</p>
+          </div>
+          <button type="button">checkout</button>
         </div>
-        <button type="button">checkout</button>
       </div>
     </div>
   </div>
-</div>
-
 
 </body>
 
